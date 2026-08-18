@@ -19,7 +19,7 @@ export default function App(){
           )}
         </div>
         <Routes>
-          <Route path="/" element={<div>Welcome to the React Auth Demo.</div>} />
+          <Route path="/" element={<div>Welcome to our app.</div>} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/signup" element={<SignupStub />} />
           <Route path="/mfa" element={<MfaStep />} />
